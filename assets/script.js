@@ -10,14 +10,14 @@ function listTopics() {
 
 
 function selectTopic () {
-    if (randomTopic === 'HTML') {
-        console.log("Let's study HTML!");
-        } else if (randomTopic === 'CSS') {
-        console.log("Let's study CSS!");
-        } else if (randomTopic === 'Git') {
-        console.log("Let's study Git!");
-        } else if (randomTopic === 'JavaScript') {
-        console.log("Let's study JavaScript!");
+    if (randomTopic === topics[0]) {
+        console.log("Let's study " + topics[0] + "!");
+        } else if (randomTopic === topics[1]) {
+        console.log("Let's study " + topics[1] + "!");
+        } else if (randomTopic === topics[2]) {
+        console.log("Let's study " + topics[2] + "!");
+        } else if (randomTopic === topics[3]) {
+        console.log("Let's study " + topics[3] + "!");
         } else {
         console.log('Please try again!');
         }
